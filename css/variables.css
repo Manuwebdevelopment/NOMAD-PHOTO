@@ -1,0 +1,35 @@
+:root {
+    /* Color Palette - Earth & Ocean */
+    --color-primary: #2C5E50;       /* Deep Green - Forests */
+    --color-secondary: #A67B5B;     /* Earth Brown - Land */
+    --color-accent: #3498DB;        /* Marine Blue - Ocean */
+    --color-action: #D35400;        /* Burnt Orange - Buttons/CTA */
+    --color-bg: #F9F9F9;            /* Off-white Background */
+    --color-text-main: #333333;     /* Dark Grey - Body Text */
+    --color-text-light: #777777;    /* Lighter Grey - Meta text */
+    --color-white: #FFFFFF;
+    
+    /* Typography */
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Lato', sans-serif;
+    
+    /* Spacing */
+    --spacing-xs: 0.5rem;   /* 8px */
+    --spacing-sm: 1rem;     /* 16px */
+    --spacing-md: 2rem;     /* 32px */
+    --spacing-lg: 4rem;     /* 64px */
+    --spacing-xl: 8rem;     /* 128px */
+    
+    /* Layout */
+    --container-width: 1200px;
+    --header-height: 80px;
+    
+    /* Borders & Shadows */
+    --border-radius: 4px;
+    --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+    --shadow-md: 0 4px 8px rgba(0,0,0,0.1);
+    
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+}

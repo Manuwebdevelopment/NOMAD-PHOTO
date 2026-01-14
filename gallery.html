@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Nomad Photography</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">Nomad<span>Photography</span></a>
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="conservation.html">Conservation</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html" class="btn-nav">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1 class="text-center" style="margin-bottom: var(--spacing-lg);">Portfolio</h1>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="assets/images/gallery_lion.png" alt="African Lion">
+                        <div class="gallery-overlay">
+                            <h3>African Wilderness</h3>
+                            <p>Kings of the Savannah</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/gallery_turtle.png" alt="Green Sea Turtle">
+                        <div class="gallery-overlay">
+                            <h3>Ocean Life</h3>
+                            <p>Great Barrier Reef</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/gallery_bear.png" alt="Polar Bear">
+                        <div class="gallery-overlay">
+                            <h3>Arctic Frontiers</h3>
+                            <p>Climate in Crisis</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item"
+                        style="background-color: #eee; min-height: 300px; display: flex; align-items: center; justify-content: center;">
+                        <span style="color: #999;">Whale Spotting (Coming Soon)</span>
+                    </div>
+                    <div class="gallery-item"
+                        style="background-color: #eee; min-height: 300px; display: flex; align-items: center; justify-content: center;">
+                        <span style="color: #999;">Little Penguins (Coming Soon)</span>
+                    </div>
+                    <div class="gallery-item"
+                        style="background-color: #eee; min-height: 300px; display: flex; align-items: center; justify-content: center;">
+                        <span style="color: #999;">Exhibitions (Coming Soon)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 David Jenkins | Nomad Photography. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
