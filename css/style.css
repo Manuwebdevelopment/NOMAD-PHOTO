@@ -228,11 +228,15 @@ img {
         position: fixed;
         top: 0;
         right: -100%;
-        width: 80%;
+        width: 50%;
+        /* Reduced from 80% based on feedback, keeping enough for 'Conservation' */
+        min-width: 200px;
+        /* Ensure it doesn't get too small on very narrow devices */
         height: 100vh;
         background-color: var(--color-white);
         box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
-        padding: 80px 40px;
+        padding: 80px 20px;
+        /* Reduced side padding */
         transition: right 0.4s ease;
         z-index: 1001;
     }
